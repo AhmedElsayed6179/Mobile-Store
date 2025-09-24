@@ -86,3 +86,10 @@ window.addEventListener("load", () => {
     }, 500);
   }, 500);
 });
+
+document.querySelectorAll('.buy-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        alert('Cannot complete the purchase. No internet connection.');
+    });
+});
+
