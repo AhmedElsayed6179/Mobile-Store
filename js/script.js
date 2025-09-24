@@ -87,12 +87,14 @@ window.addEventListener("load", () => {
   }, 500);
 });
 
+// Alert the user when the buy button is clicked
 document.querySelectorAll('.buy-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         alert('Cannot complete the purchase. Try again later.');
     });
 });
 
+// Smooth scroll to sections with offset for fixed navbar
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -109,5 +111,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
 
 
