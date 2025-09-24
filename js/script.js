@@ -89,7 +89,8 @@ window.addEventListener("load", () => {
 
 document.querySelectorAll('.buy-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-        alert('Cannot complete the purchase. No internet connection.');
+        alert('Cannot complete the purchase. Try again later.');
     });
 });
+
 
