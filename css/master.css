@@ -1172,9 +1172,13 @@ button:focus {
         height: 300px;
     }
 
-    /* Footer Images */
+    /* Footer */
     .end_page img {
         width: 72px;
+    }
+
+    .end_page p {
+        font-size: 10px;
     }
 
     /* Contact Form */
@@ -1202,3 +1206,4 @@ button:focus {
     }
 
 }
+
